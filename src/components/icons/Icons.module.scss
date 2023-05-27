@@ -1,0 +1,13 @@
+svg {
+  fill: #b4b8c0;
+  margin: .25rem;
+  transition: fill 0.25s ease-out;
+
+  &:hover {
+    fill: #dce0e8;
+  }
+
+  &:active {
+    fill: #efeffc;
+  }
+}

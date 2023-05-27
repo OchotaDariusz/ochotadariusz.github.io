@@ -1,5 +1,6 @@
 {
   "name": "ochotadariusz.github.io",
+  "homepage": "https://ochotadariusz.github.io/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -20,7 +21,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "format": "npx prettier --write ."
   },
   "eslintConfig": {
     "extends": [
@@ -39,5 +43,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "prettier": "2.8.8",
+    "sass": "^1.62.1"
   }
 }

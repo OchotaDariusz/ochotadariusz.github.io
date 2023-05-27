@@ -1,0 +1,29 @@
+.header {
+  align-items: center;
+  background: linear-gradient(320deg, rgba(40, 44, 52, 0.5), rgba(0,0,0,0.5)), linear-gradient(120deg, rgba(40, 44, 52, 0.5), rgba(0,0,0,0.5));
+  color: #b4b8c0;
+  display: flex;
+  font: inherit;
+  height: 5rem;
+  justify-content: space-between;
+  left: 0;
+  margin: 0;
+  padding: .5rem 5rem .5rem 5rem;
+  position: relative;
+  top: 0;
+  //box-shadow: 0 0 .75rem rgba(40, 44, 52, 0.25), 0 0 2.5rem 2.5rem rgba(0,0,0,0.25);
+  box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.3), 0 0 2.5rem 2.5rem rgba(0,0,0,0.25);
+
+  a {
+    color:inherit;
+    transition: color 0.25s ease-out;
+
+    &:hover {
+      color: #dce0e8;
+    }
+
+    &:active {
+      color: #efeffc;
+    }
+  }
+}
