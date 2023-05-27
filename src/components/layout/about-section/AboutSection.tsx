@@ -1,8 +1,12 @@
 import React from 'react';
 
+import { useHandleScrollAnimation } from '@app/hooks';
+
 const AboutSection = () => {
+  const sectionRef = useHandleScrollAnimation();
+
   return (
-    <section id="about">
+    <section id="about" ref={sectionRef}>
       <h2>About</h2>
       <p>
         I'm fresh from a one-year Full Stack developer course by{' '}
