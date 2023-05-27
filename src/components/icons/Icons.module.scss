@@ -1,13 +1,15 @@
+@use '../../sass' as *;
+
 svg {
-  fill: #b4b8c0;
-  margin: .25rem;
+  fill: $color-primary-main;
+  margin: 0.25rem;
   transition: fill 0.25s ease-out;
 
   &:hover {
-    fill: #dce0e8;
+    fill: $color-primary-hover;
   }
 
   &:active {
-    fill: #efeffc;
+    fill: $color-primary-active;
   }
 }

@@ -1,8 +1,11 @@
+@use './sass' as *;
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Source+Code+Pro:wght@200&display=swap');
 
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 a {
@@ -12,14 +15,12 @@ a {
 
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(217deg, #282c34, #000);
+  font-family: $primary-font;
+  background: $main-bg;
   overflow-x: hidden;
 }
 
 code {
-  font-family: 'Source Code Pro', monospace;
+  font-family: $console-font;
   font-size: 1rem;
 }

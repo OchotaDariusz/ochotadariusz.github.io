@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Source+Code+Pro:wght@200&display=swap');
+
+$color-primary-main: lighten(#b4b8c0, 20%);
+$color-primary-hover: lighten(#dce0e8, 20%);
+$color-primary-active: darken(#efeffc, 20%);
+
+$color-secondary-main: #282c34;
+
+$main-bg: linear-gradient(217deg, $color-secondary-main, #000);
+
+$primary-font: 'Roboto', sans-serif;
+$console-font: 'Source Code Pro', monospace;

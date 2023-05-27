@@ -1,10 +1,7 @@
 import classes from './Footer.module.scss';
-import githubIcon from '../../../assets/icons/github.svg';
-import linkedinIcon from '../../../assets/icons/linkedin.svg';
-import mailIcon from '../../../assets/icons/mail.svg';
-import GithubIcon from '../../icons/GithubIcon';
-import LinkedinIcon from '../../icons/LinkedinIcon';
-import MailIcon from '../../icons/MailIcon';
+import GithubIcon from '@app/components/icons/GithubIcon';
+import LinkedinIcon from '@app/components/icons/LinkedinIcon';
+import MailIcon from '@app/components/icons/MailIcon';
 
 export const Footer = () => {
   return (

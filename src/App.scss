@@ -1,3 +1,5 @@
+@use './sass' as *;
+
 .App {
   text-align: center;
 }
@@ -25,7 +27,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: #b4b8c0;
+  color: $color-primary-main;
 
   p {
     display: inline-flex;
@@ -64,18 +66,18 @@ section {
   height: 100%;
 
   &:nth-child(even) {
-    background-color: #282c34;
-    color: #dce0e8;
+    background-color: $color-secondary-main;
+    color: $color-primary-hover;
   }
 
   &:nth-child(odd) {
     background-color: #aaa;
-    color: #282c34;
+    color: $color-secondary-main;
   }
 
   &::before,
   &::after {
-    content: "";
+    content: '';
     position: absolute;
     right: 0;
     left: 0;
@@ -85,12 +87,20 @@ section {
 
   &::before {
     top: 0;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, .25) 0%, transparent 20%);
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.25) 0%,
+      transparent 20%
+    );
   }
 
   &::after {
     bottom: 0;
-    background: linear-gradient(to top, rgba(0, 0, 0, .25) 20%, transparent 100%);
+    background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.25) 20%,
+      transparent 100%
+    );
   }
 
   p {
