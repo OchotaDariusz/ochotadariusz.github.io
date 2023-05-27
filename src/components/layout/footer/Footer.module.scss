@@ -3,7 +3,6 @@
 .footer {
   @include element-background(
     $height: 10rem,
-    $flex-direction: column,
-    $justify-content: space-evenly
+    $flex-direction: column
   );
 }

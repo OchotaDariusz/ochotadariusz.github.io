@@ -1,7 +1,7 @@
 import React from 'react';
 import { useHandleScrollAnimation } from '@app/hooks';
 
-const PortfolioSection = () => {
+export const PortfolioSection = () => {
   const sectionRef = useHandleScrollAnimation();
 
   return (
@@ -10,5 +10,3 @@ const PortfolioSection = () => {
     </section>
   );
 };
-
-export default PortfolioSection;

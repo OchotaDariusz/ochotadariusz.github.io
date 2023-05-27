@@ -2,7 +2,7 @@ import React from 'react';
 
 import { useHandleScrollAnimation } from '@app/hooks';
 
-const AboutSection = () => {
+export const AboutSection = () => {
   const sectionRef = useHandleScrollAnimation();
 
   return (
@@ -31,5 +31,3 @@ const AboutSection = () => {
     </section>
   );
 };
-
-export default AboutSection;

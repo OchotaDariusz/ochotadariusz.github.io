@@ -1,15 +1,19 @@
 import React from 'react';
 
 import { Header, Footer, MainContainer } from '@app/components/layout';
-import logo from './logo.svg';
-import './App.scss';
-import AboutSection from '@app/components/layout/about-section/AboutSection';
-import PortfolioSection from '@app/components/layout/portfolio-section/PortfolioSection';
-import ContactSection from '@app/components/layout/contact-section/ContactSection';
+import {
+  AboutSection,
+  PortfolioSection,
+  ContactSection,
+} from '@app/components/layout';
+import { BackgroundIllustration } from '@app/components/ui';
+import logo from '@app/logo.svg';
+import '@app/App.scss';
 
 function App() {
   return (
     <>
+      <BackgroundIllustration />
       <Header />
       <MainContainer>
         <div className="App">
